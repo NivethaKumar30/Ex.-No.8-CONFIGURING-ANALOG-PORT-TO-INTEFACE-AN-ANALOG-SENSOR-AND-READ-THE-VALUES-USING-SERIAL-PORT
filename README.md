@@ -14,6 +14,7 @@ Sampling rate [Hz]: how fast they work.
 
 ADC Symbol. 
 An 10-bit ADC with 1 kHz sampling rate has 256 (2⁸) levels in its digital signal and takes 1 millisecond to convert an analog signal into its digital form.
+
 ![image](https://github.com/vasanthkumarch/Ex.-No.8-CONFIGURING-ANALOG-PORT-TO-INTEFACE-AN-ANALOG-SENSOR-AND-READ-THE-VALUES-USING-SERIAL-PORT/assets/36288975/bdbe1fe6-6913-46ca-aefd-726b6a406cf6)
 
 An analog signal is expressed in voltage [V] and other important features are:
@@ -97,6 +98,7 @@ The STM32G071RB has 2 ADCs (named ADC1 and ADC2) with a maximum sampling rate of
 With channels, it is possible to organize the conversions in a group. A group consists of a sequence of conversions that can be done on any channel and in any order, also with different sampling rates.
 
 The Analog connector of the development board is connected to pins: PA0, PA1, PA4, PB0, PC1, and PC0 of the microcontroller.
+
 ![image](https://github.com/vasanthkumarch/Ex.-No.8-CONFIGURING-ANALOG-PORT-TO-INTEFACE-AN-ANALOG-SENSOR-AND-READ-THE-VALUES-USING-SERIAL-PORT/assets/36288975/152f51fd-f09b-4d65-8744-9492c86f1720)
 
 Pinout of the analog connector — NUCLEO-G071RB. .
@@ -105,6 +107,7 @@ The potentiometer is wired to the PA0 pin and so the ADC1 Channel 0 (ADC1_IN0) w
 Open the Pinout&Configuration tab and click on Analog → ADC1 in the Categories section.
 In the channel 1 (IN0) dropdown menu select Single-ended.
 The ADC can be configured to measure the voltage difference between one pin and the ground (Single-ended configuration) or between two pins (Differential configuration).
+
 ![image](https://github.com/vasanthkumarch/Ex.-No.8-CONFIGURING-ANALOG-PORT-TO-INTEFACE-AN-ANALOG-SENSOR-AND-READ-THE-VALUES-USING-SERIAL-PORT/assets/36288975/84e5114c-ff8b-4058-8ad7-760bcf06f931)
 
 ADC1 mode panel.  
@@ -129,6 +132,7 @@ These sensors normally used to check volumetric water content, and another group
 
 Soil Moisture Sensor Pin Configuration
 The FC-28 soil moisture sensor includes 4-pins
+
 ![image](https://github.com/vasanthkumarch/Ex.-No.8-CONFIGURING-ANALOG-PORT-TO-INTEFACE-AN-ANALOG-SENSOR-AND-READ-THE-VALUES-USING-SERIAL-PORT/assets/36288975/14ce9ba1-6f2e-4080-adee-bfb695123d34)
 
 soil-moisture-sensor
